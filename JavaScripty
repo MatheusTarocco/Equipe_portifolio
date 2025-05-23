@@ -1,0 +1,6 @@
+let numero = 0;
+
+function incrementar() {
+    numero++;
+    document.getElementById("numero").textContent = numero;
+}
